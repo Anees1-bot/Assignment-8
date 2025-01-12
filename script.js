@@ -9,7 +9,7 @@
 // } else if (a = b) {
 //     alert(a + " and " + b + " are equal");
 // } else {
-//     alert("Invalid input");
+//     alert("not valid");
 // }
 
 // 2. Write a js program to find maximum between three numbers.
@@ -27,37 +27,30 @@
 // else if (a = b = c) {
 //     alert(a + "," + + b + " and " + c + " are equal");
 // } else {
-//     alert("Invalid input");
+//     alert("invalid");
 // }
 
 // 3. Write a js program to check whether a number is negative, positive or zero.
 
 // var a = prompt("Enter a number");
 // if (a > 0) {
-//     alert("Positive");
 //     console.log("Positive");
 // } else if (a < 0) {
-//     alert("Negative");
 //     console.log("Negative");
 // } else if (a == 0) {
-//     alert("Zero");
 //     console.log("Zero");
 // } else {
-//     alert("Invalid Input");
-//     console.log("Invalid Input");
+//     console.log("Not a number");
 // }
 
 // 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
 
 // var a = prompt("Enter a number");
 // if (a % 5 == 0) {
-//     alert("Number is divisible by 5");
 //     console.log("Number is divisible by 5");
 // } else if (a % 11 == 0) {
-//     alert("Number is divisible by 11");
 //     console.log("Number is divisible by 11");
 // } else if (a % 5 != 0 && a % 11 != 0) {
-//     alert("Number is not divisible by 5 or 11");
 //     console.log("Number is not divisible by 5 or 11");
 // }
 
@@ -65,15 +58,11 @@
 
 // var a = prompt("Enter a number");
 // if (a % 2 == 0) {
-//     alert("The number entered is " + a + " and Number is even");
 //     console.log("The number entered is " + a + " and Number is even");
 // } else if (a % 2 != 0) {
-//     alert("The number entered is " + a + " and Number is odd");
 //     console.log("The number entered is " + a + " and Number is odd");
-
 // } else {
-//     alert("Invalid input. Please enter a number.");
-//     console.log("Invalid input. Please enter a number.");
+//     console.log( "enter a number.");
 // }
 
 // 6. Write a js program to check whether a year is leap year or not.
@@ -163,7 +152,7 @@
 // } else if (week == 7) {
 //     console.log("Today is Sunday");
 // } else {
-//     console.log("Invalid day");
+//     console.log("Enter a day from 1 to 7");
 // }
 
 // 12. Write a js program to input month number and print number of days in that month.
@@ -194,7 +183,7 @@
 // } else if (month == 12) {
 //     alert("December has 31 days");
 // } else {
-//     alert("Invalid month");
+//     alert("Enter month between 1 to 12");
 // }
 
 // 13. Write a js program to count total number of notes in given amount.
@@ -217,8 +206,6 @@
 //         }
 //     }
 // }
-
-// // Taking input from user
 // let price = parseInt(prompt("Enter the price: "));
 // countNotes(price);
 
